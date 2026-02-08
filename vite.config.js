@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/', // This ensures assets load correctly on your custom domain
   plugins: [
     react(),
     tailwindcss(),
